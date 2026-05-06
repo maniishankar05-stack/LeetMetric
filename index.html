@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="maincontainer">
+        <div class="container">
+            <h1>LeetMetric</h1>
+            <p>Enter a username to see your LeetCode stats!</p>
+            <input type="text" id="username" placeholder="LeetCode Username">
+            <button id="fetchBtn">Fetch Stats</button>
+            <div id="stats"></div>
+        </div>
+        
+        <div class="stats">
+            <div class="easy-progress circle"> 
+                <span id = "easy-label">Easy  </span>     </div>
+            <div class="medium-progress circle">
+                <span id = "medium-label">Medium  </span>     </div>
+            <div class="hard-progress circle">
+                <span id = "hard-label">Hard  </span>
+            </div>
+            <div class="statscard">
+
+                <!-- take  from js code directly and show in this div -->
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
